@@ -2,16 +2,16 @@
    Common Styles
 ---------------------------------------------------------------------------------*/
 /*float styles*/
-.clearfix:before,
+/* .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; 1
+    display: table; 2
 }
 
 .clearfix:after {
     clear: both;
 }
-
+ */
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
