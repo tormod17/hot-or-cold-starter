@@ -130,7 +130,7 @@ $(document).ready(function(){
 
 		function qualifyInput() { 
 			$('#userGuess').keyup(function(){
-							input = $(this).val();
+				input = $(this).val();
 				if ((isNaN(input))||(input <= 0)||(input>100)){
 					alert("it is a not NUMBER! between 1 and 100");
 					$('#userGuess').val('');
